@@ -1,0 +1,46 @@
+{
+  "name": "user-auth_express-session",
+  "version": "1.0.0",
+  "description": "My first go with express session for user accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": "git+https://github.com/djorborn/user-auth_express-session.git",
+  "keywords": [
+    "express-session",
+    "express",
+    "user-auth"
+  ],
+  "author": "djorborn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djorborn/user-auth_express-session/issues"
+  },
+  "homepage": "https://github.com/djorborn/user-auth_express-session#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel": "^6.23.0",
+    "bcrypt": "^1.0.3",
+    "bootstrap": "^4.0.0",
+    "bulma": "^0.6.2",
+    "connect-mongodb-session": "^1.4.0",
+    "dotenv": "^5.0.0",
+    "eslint": "^4.18.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.0.6",
+    "popper": "^1.0.1",
+    "popper.js": "^1.12.9",
+    "pug": "^2.0.0-rc.4",
+    "yarn": "^1.3.2"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

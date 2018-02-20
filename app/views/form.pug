@@ -1,0 +1,22 @@
+extends layout
+block form
+  - var link = (title === 'Login' ? 'Register' : 'Login')
+  p.notification.is-warning.is-radiusless.padding.subtitle Express Session
+  .section
+    .container
+      div(style="max-width: 400px")
+        .title=title
+        form(id=title.toLowerCase() method="post")
+          .field
+            .label Username
+            input.input(name="username" placeholder="Username")
+          .field
+            .label Password
+            input.input(name="password" placeholder="Password" type="password")
+          if title === 'Register'
+            .field
+              .label Email
+              input.input(name="email" placeholder="Email" type="email")
+          .field.is-grouped.is-flex
+            a.button.padding(href="/" + link.toLowerCase())=link
+            button.button.is-warning(type="submit")=title
